@@ -1,9 +1,9 @@
 {
-  "name": "rv_house",
-  "version": "0.0.0",
-  "homepage": "https://github.com/Grapheme/rv_house",
+  "name": "glogG",
+  "version": "0.0.1",
+  "homepage": "https://github.com/kawaiidon/glogG",
   "authors": [
-    "Igor Alekseev <mail@igoralekseev.info>"
+    "kawaiidon <kawaiidon@gmail.com>"
   ],
   "license": "MIT",
   "ignore": [
@@ -14,7 +14,6 @@
     "tests"
   ],
   "dependencies": {
-    "bxslider-4": "stevenwanderski/bxslider-4#~4.2.5",
-    "perfect-scrollbar": "~0.6.4"
+    "jquery": "2.1.4"
   }
 }
