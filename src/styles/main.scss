@@ -1,0 +1,26 @@
+@import 'fonts';
+@import 'clearfix';
+
+
+html, body {
+  // min-height: 100% !important;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: 'Circe';
+  font-weight: 300;
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+}
+
+
+
+@import 'includes/header';
+@import 'includes/footer';
+
+
+@import 'pages/index';
+
+@media all and (max-width: 767px) {
+  @import 'phone';
+}

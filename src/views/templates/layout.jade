@@ -1,0 +1,31 @@
+doctype html
+
+- var title = 'glogG'
+- var bodyClass = 'index'
+block vars
+
+
+    
+html.no-js(lang="")
+  head
+    meta(charset="utf-8")
+    meta(name="description", content="")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    title #{title}
+    link(rel="stylesheet", href="styles/main.css")
+    link(rel="shortcut icon" href="images/favicon.ico" type="image/x-icon")
+  body(class="#{ bodyClass }")
+    .header.js-header
+      .wrapper
+
+        block content
+
+    .footer.js-footer
+        .wrapper
+            
+        block scripts
+    script(src="scripts/components/jquery.js")
+
+
+
+ 

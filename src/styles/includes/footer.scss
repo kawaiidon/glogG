@@ -1,0 +1,207 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 4;
+  height: 60px;
+  line-height: 60px;
+  font-size: 0;
+  text-align: right;
+  text-transform: uppercase;
+  font-family: 'Circe';
+  color: #8996a0;
+  background: #121212 url(../images/bg.jpg);
+
+  .footer-link {
+    position: relative;
+  	text-decoration: none;
+    color: #fff;
+    transition: all .4s ease;
+    color: #8996a0;
+
+    &:before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background: transparent;
+      transform: translateY(100%);
+      transition: all .4s ease;
+    }
+
+    &:hover, &.active {
+      color: #fff;
+
+      &:before {
+        transform: translateY(0);
+        background: #fff;
+      }
+    }
+  }
+
+  .wrapper {
+    position: relative;
+  }
+
+  .footer__left, .footer__right, .footer__center {
+  	font-size: 13px;
+  }
+
+  .footer__center {
+  	display: inline-block;
+  	vertical-align: middle;
+
+  	.center__link {
+  		display: inline-block;
+  		vertical-align: middle;
+  		line-height: normal;
+      font-size: 0;
+
+      &.link-min {
+        margin: 0 15px;
+      }
+
+      &.link-big {
+        margin: 0 65px;
+      }
+
+  		.link__item {
+        position: relative;
+  			display: inline-block;
+        vertical-align: middle;
+        font-size: 13px;
+
+  			&.item-bbdo {
+  				height: 14px;
+  				width: 136px;
+
+          .item__default {
+            background: url(../images/partners/bbdo-gray.svg) center center / 80% no-repeat;
+          }
+
+          .item__hover {
+            background: url(../images/partners/bbdo.svg) center center / 80% no-repeat;
+          }
+  			}
+
+        &.item-mezon {
+          height: 32px;
+          width: 32px;
+
+          .item__default {
+            background: url(../images/partners/mezon-gray.svg) 0 0 / contain no-repeat;
+          }
+
+          .item__hover {
+            background: url(../images/partners/mezon.svg) 0 0 / contain no-repeat;
+          }
+        }
+
+        &.item-novostroy {
+          height: 30px;
+          width: 40px;
+
+          .item__default {
+            background: url(../images/partners/mos-gray.svg) 0 0 / contain no-repeat;
+          }
+
+          .item__hover {
+            background: url(../images/partners/mos.svg) 0 0 / contain no-repeat;
+          }
+        }
+
+        &.item-lider {
+          height: 30px;
+          width: 65px;
+
+          .item__default {
+            background: url(../images/partners/lider-gray-min.svg) center center / contain no-repeat;
+          }
+
+          .item__hover {
+            background: url(../images/partners/lider-white.svg) center center / contain no-repeat;
+          }
+        }
+
+        &.item-knight {
+          height: 30px;
+          width: 80px;
+
+          .item__default {
+            background: url(../images/partners/knight_gray.svg) 0 0 / contain no-repeat;
+          }
+
+          .item__hover {
+            background: url(../images/partners/knight.svg) 0 0 / contain no-repeat;
+          }
+        }
+
+        &.item-cubes {
+          height: 32px;
+          width: 22px;
+
+          .item__default {
+            background: url(../images/partners/mos2-gray.svg) 0 0 / contain no-repeat;
+          }
+
+          .item__hover {
+            background: url(../images/partners/mos2.svg) 0 0 / contain no-repeat;
+          }
+        }
+
+        > span {
+          display: inline-block;
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+
+          &.item__hover {
+            opacity: 0;
+            transition: opacity .6s ease;
+          }
+
+          &.item__default {
+            transition: opacity .4s ease;
+          }
+        }
+
+        &:hover {
+          .item__default {
+            opacity: 0;
+            transition: opacity .6s ease;
+          }
+
+          .item__hover {
+            opacity: 1;
+            transition: opacity .4s ease;
+          }
+        }
+  		}
+  	}
+  }
+  .footer__left div {
+      display: inline-block;
+  }
+  .footer__left {
+  	position: absolute;
+  	left: 20px;
+  	top: 0;
+    line-height: 62px;
+
+    a {
+      margin-right: 60px;
+    }
+  }
+
+  .footer__right {
+  	position: absolute;
+  	right: 20px;
+  	top: 0;
+    line-height: 62px;
+  }
+}

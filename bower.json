@@ -1,0 +1,20 @@
+{
+  "name": "rv_house",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Grapheme/rv_house",
+  "authors": [
+    "Igor Alekseev <mail@igoralekseev.info>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bxslider-4": "stevenwanderski/bxslider-4#~4.2.5",
+    "perfect-scrollbar": "~0.6.4"
+  }
+}

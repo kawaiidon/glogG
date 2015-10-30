@@ -1,0 +1,48 @@
+/* html {
+	-webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+
+@font-face {
+  font-family: 'Circe';
+  src: 	url('../fonts/Circe-Light.eot?#iefix') format('embedded-opentype'),  
+		url('../fonts/Circe-Light.otf')  format('opentype'),
+		url('../fonts/Circe-Light.woff') format('woff'), 
+		url('../fonts/Circe-Light.ttf')  format('truetype'), 
+		url('../fonts/Circe-Light.svg#Circe-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Circe';
+  src: 	url('../fonts/Circe-Regular.eot?#iefix') format('embedded-opentype'),  
+		url('../fonts/Circe-Regular.otf')  format('opentype'),
+		url('../fonts/Circe-Regular.woff') format('woff'), 
+		url('../fonts/Circe-Regular.ttf')  format('truetype'), 
+		url('../fonts/Circe-Regular.svg#Circe-Regular') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DINPro';
+  src:  url('../fonts/DINPro-Regular.eot?#iefix') format('embedded-opentype'),  
+        url('../fonts/DINPro-Regular.otf')  format('opentype'),
+        url('../fonts/DINPro-Regular.woff') format('woff'), 
+        url('../fonts/DINPro-Regular.ttf')  format('truetype'), 
+        url('../fonts/DINPro-Regular.svg#DINPro-Regular') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Glober';
+  src:  url('../fonts/GloberRegular.eot?#iefix') format('embedded-opentype'),  
+        url('../fonts/GloberRegular.otf')  format('opentype'),
+        url('../fonts/GloberRegular.woff') format('woff'), 
+        url('../fonts/GloberRegular.ttf')  format('truetype'), 
+        url('../fonts/GloberRegular.svg#GloberRegular') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
