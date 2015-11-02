@@ -3,20 +3,23 @@
 
 
 html, body {
+  background: url(../images/dark_embroidery.png);
   // min-height: 100% !important;
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: 'Circe';
+  font-family: 'Andika';
   font-weight: 300;
   /* -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; */
+  
 }
 
-
+@import 'blocks/post';
 
 @import 'includes/header';
 @import 'includes/footer';
+@import 'includes/ui';
 
 
 @import 'pages/index';

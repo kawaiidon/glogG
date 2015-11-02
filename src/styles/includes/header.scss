@@ -1,73 +1,14 @@
-.header {
-	position: fixed;
-	z-index: 99;
-	top: 0;
-	left: 0;
-	right: 0;
-	height: 140px;
-	text-align: center;
-	font-family: 'Circe';
-	background: #121212 url(../images/bg.jpg);
-
-	.wrapper {
-		position: relative;
-	}
-
-	.header__logo {
-		position: absolute;
-		display: inline-block;
-		top: 50%;
-		left: 20px;
-		margin-top: -(84/2)+px;
-		width: 84px;
-		height: 84px;
-		background: url(../images/logo.png) 0 0 / 100% 100%;
-	}
-
-	.header__phone {
-		position: absolute;
-		top: 50%;
-		right: 20px;
-		margin-top: -(40/2)+px;
-	}
-
-	.header__menu {
-		display: inline-block;
-		vertical-align: middle;
-		line-height: 140px;
-        margin-left: -140px;
-
-		.menu__link {
-			position: relative;
-			display: inline-block;
-			vertical-align: middle;
-			line-height: 40px;
-			margin: 0 12px;
-			color: #8996a0;
-			text-decoration: none;
-			text-transform: uppercase;
-			transition: all .4s ease;
-
-			&:before {
-				content: "";
-				position: absolute;
-				bottom: 0;
-				left: 0;
-				right: 0;
-				height: 2px;
-				background: rgba(255, 255, 255, 0);
-				transform: translateY(100%);
-				transition: all .4s ease;
-			}
-
-			&:hover, &.active {
-				color: #fff;
-
-				&:before {
-					transform: translateY(0);
-					background: rgba(255, 255, 255, 1);
-				}
-			}
-		}
-	}
+.header{
+  .wrapper{
+    margin: 0 auto;
+    height: 250px;
+    max-width: 1280px;
+    text-align: center;
+    .header-logo{
+      h1{
+        padding-top: 35px;
+        font-size: 50px;
+      }
+    }
+  }
 }
