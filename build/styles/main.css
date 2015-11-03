@@ -5,6 +5,14 @@
   font-weight: 400;
   font-style: normal; }
 
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+  width: 100%; }
+
+.clearfix:after {
+  clear: both; }
+
 html, body {
   background: url(../images/dark_embroidery.png);
   height: 100%;
@@ -18,8 +26,7 @@ html, body {
 .post {
   margin: auto;
   margin-top: 50px;
-  width: 80%;
-  height: 100%; }
+  width: 80%; }
   .post__date {
     font-style: italic;
     padding: 10px; }
@@ -41,21 +48,31 @@ html, body {
   height: 150px; }
 
 .main {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
   border-radius: 20px;
   position: relative;
   margin: 0 auto;
   max-width: 1280px;
-  height: 100%;
   background: white; }
   .main .content {
-    max-width: 960px;
-    float: left;
-    display: inline-block; }
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 960px; }
   .main .sidebar {
-    display: inline-block;
-    float: right;
+    margin-left: auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
     width: 250px;
-    height: 100%;
     background: gray; }
 
 @media all and (max-width: 767px) {

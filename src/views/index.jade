@@ -6,12 +6,16 @@ block vars
 block content
   .main
     .content
-      include blocks/post
-      include blocks/post
-      include blocks/post
-      include blocks/post
-      include blocks/post
+      div
+        include blocks/post
+        include blocks/post
+        include blocks/post
+        include blocks/post
+        include blocks/post
+      
     .sidebar
-      include blocks/navigation
+      div
+        include blocks/navigation
+    .clearfix  
 
 block scripts
