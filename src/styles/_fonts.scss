@@ -4,3 +4,10 @@
     font-weight: 400;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Calligraph';
+    src: local('../fonts/Calligraph  Medium'), local('../fonts/Calligraph-Medium'), url('../fonts/calligraphmedium.woff2') format('woff2'), url('../fonts/calligraphmedium.woff') format('woff'), url('../fonts/calligraphmedium.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}

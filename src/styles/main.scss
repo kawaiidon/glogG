@@ -3,18 +3,21 @@
 
 
 html, body {
-  background: url(../images/dark_embroidery.png);
+  background: white;
+//  background: url(../images/bg-1.png);
   // min-height: 100% !important;
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: 'Andika';
   font-weight: 300;
   /* -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; */
   
 }
-
+ul{
+  padding: 0;
+  margin: 0;
+}
 @import 'blocks/post';
 
 @import 'includes/header';

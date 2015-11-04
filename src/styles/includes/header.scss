@@ -6,8 +6,21 @@
     text-align: center;
     .header-logo{
       h1{
-        padding-top: 35px;
-        font-size: 50px;
+        color: #ee5e3d;
+        font-family: 'Calligraph';
+        font-size: 80px;
+        text-shadow: 0 3px 0 #FFFFFF, 1px 5px 3px #CCCCCC;
+        span{
+          color: #67a1b1;
+          font-size: 95px;
+          text-shadow: 0 3px 0 #FFFFFF, 1px 5px 3px #CCCCCC;
+        }
+      }
+      h2{
+        color: #67a1b1;
+        font-size: 35px;
+        font-family: 'Calligraph';
+        text-shadow: 0 3px 0 #FFFFFF, 1px 5px 3px #CCCCCC;
       }
     }
   }

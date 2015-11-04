@@ -2,11 +2,66 @@
   margin: auto;
   margin-top: 50px;
   width: 80%;
-  &__date{
-    font-style: italic;
-    padding: 10px;
+  &__top{
+    position: relative;
   }
-  &__btn{
+  &__title{
+    color: #ee5e3d;
+    font-size: 24px;
+    text-decoration: none;
+    font-family: 'Calligraph';
+    transition: 0.3s;
+    h3{
+      font-weight: normal;
+    }
+    &:hover{
+      color: #666;
+    }
+  }
+  &__date{
+    font-family: 'Calligraph';
+    position: absolute;
+    right: 0;
+    top: -25px;
+    text-shadow: 0 3px 0 #FFFFFF, 1px 5px 3px #CCCCCC;
+    .date-day{
+      right: 15px;
+      color: #67a1b1;      
+      position: absolute;
+      font-size: 55px;
+    }
+    .date-month{
+      
+      position: absolute;
+      right: -30px;
+      color: #86936a;
+    }
+    .date-year{
+      font-size: 20px;
+      color: #67a1b1;      
+      position: absolute;
+      top: 20px;
+    }
+  }
+  &__short{
+    padding-left: 10px;
+    padding-bottom: 30px;
+  }
+  &__count{
     float: right;
+  }
+  &__btn{    
+    a{
+      color: #86936a;
+      font-weight: bold;
+      font-family: 'Calligraph';
+      font-size: 24px;
+      text-decoration: none;
+      text-shadow: 0 3px 0 #FFFFFF, 1px 5px 3px #CCCCCC;
+      transition: 0.3s;
+      &:hover{
+        color: #666;
+      }
+    }
   }
 }

@@ -4,18 +4,28 @@ block vars
 
 
 block content
-  .main
-    .content
-      div
-        include blocks/post
-        include blocks/post
-        include blocks/post
-        include blocks/post
-        include blocks/post
-      
-    .sidebar
-      div
-        include blocks/navigation
-    .clearfix  
+  .content-wrapper
+    .main-manu
+      ul.menu-list
+        li.list-item
+          a(href="/").item-link Главная
+          a(href="/").item-link Обо мне
+          a(href="/").item-link Контакты
+          a(href="/").item-link Blank
+          a(href="/").item-link Админка
+    .main-bg
+      .main
+        .content
+          div
+            include blocks/post
+            include blocks/post
+            include blocks/post
+            include blocks/post
+            include blocks/post
+
+        .sidebar
+          div
+            include blocks/navigation
+        .clearfix  
 
 block scripts
