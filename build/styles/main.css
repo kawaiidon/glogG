@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @font-face {
-  font-family: 'Andika';
-  src: local("../fonts/Andika"), url("../fonts/andika.woff2") format("woff2"), url("../fonts/andika.woff") format("woff"), url("../fonts/andika.ttf") format("truetype");
+  font-family: 'AleksandraC';
+  src: local("../fonts/AleksandraCRegular"), url("../fonts/aleksandracregular.woff2") format("woff2"), url("../fonts/aleksandracregular.woff") format("woff"), url("../fonts/aleksandracregular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal; }
 
@@ -71,7 +71,8 @@ ul {
       top: 20px; }
   .post__short {
     padding-left: 10px;
-    padding-bottom: 30px; }
+    padding-bottom: 30px;
+    font-family: 'AleksandraC'; }
   .post__count {
     float: right; }
   .post__btn a {
@@ -88,7 +89,6 @@ ul {
 
 .header .wrapper {
   margin: 0 auto;
-  height: 250px;
   max-width: 1280px;
   text-align: center; }
   .header .wrapper .header-logo h1 {
@@ -101,6 +101,7 @@ ul {
       font-size: 95px;
       text-shadow: 0 3px 0 #FFFFFF, 1px 5px 3px #CCCCCC; }
   .header .wrapper .header-logo h2 {
+    margin: 0;
     color: #67a1b1;
     font-size: 35px;
     font-family: 'Calligraph';
@@ -134,13 +135,12 @@ ul {
     .main-manu .menu-list .list-item {
       list-style-type: none; }
       .main-manu .menu-list .list-item .item-link {
-        font-weight: bold;
         margin-top: 7px;
         margin-left: 40px;
         display: inline-block;
         font-size: 28px;
-        text-shadow: 0 1px 0 #FFFFFF, 1px 2px 1px #CCCCCC;
-        color: #67a1b1;
+        color: #fff;
+        text-shadow: 1px 1px 1px #333;
         font-family: 'Calligraph';
         -webkit-transition: 0.3s;
                 transition: 0.3s;
